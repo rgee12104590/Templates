@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+
+
+footer {
+	padding-top:10px;
+	text-align: center;
+	border-top: 2px solid #000;
+}
+
+
+iframe {
+	align: middle;
+}
+
+
+#content {
+	text-align: center;
+	font-family: 'Raleway', sans-sefir;
+	font-size: 125%;
+}
+
+#content_head {
+	text-align: center;
+	font-family: 'Raleway', sans-sefir;
+}
+
+.question {
+	padding-bottom: 30px;
+}
+
+h5 {
+	text-align: left;
+	font-family: 'Raleway', sans-sefir;
+}

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+.question {
+	padding-bottom: 30px;
+}
+
+h5 {
+	text-align: left;
+	font-family: 'Raleway', sans-sefir;
+}
+
