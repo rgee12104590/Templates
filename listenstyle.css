@@ -41,3 +41,18 @@ h5 {
 	text-align: left;
 	font-family: 'Raleway', sans-sefir;
 }
+
+
+.answerCorrect {
+	background-color: lightgreen;
+}
+
+
+.answerWrong
+{
+	background-color: #c9302c;
+}
+
+
+
+
