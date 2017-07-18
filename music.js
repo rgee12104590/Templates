@@ -1,7 +1,0 @@
-
-$('.check').click(function(){
-	
-					answer = $
-					
-					});
-					

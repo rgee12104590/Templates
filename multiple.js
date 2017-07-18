@@ -21,3 +21,6 @@ $('.answer').click(function()
 //carousel will stop cycling when mouse enter for the vocabulary template
 
 $('carousel').carousel('pause');
+
+
+

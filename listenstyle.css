@@ -53,6 +53,20 @@ h5 {
 	background-color: #c9302c;
 }
 
+/* Input field */
+input{
+
+  margin: 0.3em 0 0 0;
+  padding: 0.3em .3em 0.3em 0.5em;
+  /* width: calc(100% - 2em); */
+  border: none;
+  background: transparent;
+  background-color: #DCDCDC
+ 
+}
+
+input:focus{
+  outline: none;
 
 
-
+}
