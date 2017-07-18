@@ -1,3 +1,7 @@
+/*
+
+This was what I used to run question 1.
+
 $('.check').click(function(){
 	
 	$('.refresh').removeClass('answerCorrect answerWrong');
@@ -25,3 +29,51 @@ $('.check').click(function(){
 	}
 	
 });
+*/
+//this is the new code that will loop through all the ids of the inputs and will check the name attribute to determine whether it is correct or wrong
+
+
+$('.check').click(function(){
+
+$('.refresh').removeClass('answerCorrect answerWrong');
+
+for (counter= 0; counter <= 20; counter++){
+	
+	answer = $('#answer' + [counter]).attr('name');
+	guess = $('#answer' + [counter]).val();
+
+		if(guess === answer){
+			$('#answer' + [counter]).addClass('answerCorrect');
+		}
+		else{
+			$('#answer' + [counter]).addClass('answerWrong');
+		}
+}
+		
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
