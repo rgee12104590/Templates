@@ -24,6 +24,4 @@ $('.check').click(function(){
 		$('#answer2').addClass('answerWrong');
 	}
 	
-	
-	
 });
