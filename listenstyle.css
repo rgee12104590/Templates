@@ -61,7 +61,7 @@ input{
   /* width: calc(100% - 2em); */
   border: none;
   background: transparent;
-  background-color: #DCDCDC
+  background-color: #DCDCDC;
  
 }
 
@@ -70,3 +70,39 @@ input:focus{
 
 
 }
+
+/*Css for Draggables*/
+
+.ui-draggable{
+	background-color: #DCDCDC;
+	text-align: center;
+	border: 1px solid lightgray;
+	border-radius: 10px;
+}
+
+
+/*for blackboard*/
+
+textarea{
+	width: 100%;
+	height: 450px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 2px;
+	background-color: #f8f8f8;
+	resize: none;
+	
+}
+
+#textfield {
+	width: 100%;
+	height: 450px;
+	padding: 12px 20px;
+	
+}
+
+
+
+
+

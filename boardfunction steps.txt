@@ -1,0 +1,48 @@
+//step 1: get value of textarea
+
+// step n: chop paragraph word by word and store each word in an array called choppedWords.
+
+//place step 2 and 3 in a function filterAnswers(choppedWords)
+  {
+	
+   //step 2: apply regular expression to filter out the words within "{{}}"
+
+   //step 3: store filtered out words a.k.a the answers in an array
+   
+   return an array of answers; // returned array better be zero based index
+  }
+  
+
+//function(//array of choppedWords) {
+	//var placement = 0  
+	//traverse the aray of chopped words 
+	//1 <-- when it encounters an index whose characters contain "{{match regular expression}}", replace the array element with the value of "placement" variable
+	//right after finding a matched {{}} increment the "placement" variable by 1
+	
+	return the new array of chopped words
+}
+
+
+//step n: 
+
+
+==========================
+in the markup.....
+
+process(meaning, traverse the newlyProcessedChoppedWords) the 1 <-- such that it will be of the format
+the quick <input type="text" id=array[placementCounter]> fox jumps over the <input type="text" id=array[placementCounter]> <input type="text" id=array[placementCounter]>
+
+
+==============================================================================================
+==============================================================================================
+==============================================================================================
+
+as the user types,
+  -> store each character in a variable ( variable += this.something(); )
+    -> if the character is a "space", that would denote that the "word" is complete, store the word in an array
+	-> if the character is a "{" display on screen "_" and when you encounter the "}" display on screen "space"
+  
+  
+  delimiter *
+  
+  the quick one*
