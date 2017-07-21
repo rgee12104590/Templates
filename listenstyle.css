@@ -78,7 +78,15 @@ input:focus{
 	text-align: center;
 	border: 1px solid lightgray;
 	border-radius: 10px;
+
+	
 }
+
+.blankbox{
+	text-align: center;
+}
+
+
 
 
 /*for blackboard*/
